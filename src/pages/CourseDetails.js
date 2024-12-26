@@ -17,7 +17,10 @@ const CourseDetails = () => {
   if (!course) {
     return <div>Loading...</div>;
   }
-
+  let foo = 10;
+  (function () {
+    console.log(foo, "aana");
+  })();
   return (
     <div className="course-details-container">
       <h2>{course.name}</h2>
