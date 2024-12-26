@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-let foo = 10;
-(function () {
-  console.log(foo, "aana");
-  let foo = 20;
-})();
+
 const HomePage = () => {
   return (
     <div>
